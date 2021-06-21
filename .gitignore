@@ -1,0 +1,4 @@
+MVPPattern/Library/Artifacts/*
+*.log
+MVPPattern/Temp/*
+MVPPattern/Library/ShaderCache/*
