@@ -13,5 +13,6 @@ public class TextPresenter : MonoBehaviour
     void Start()
     {
         textModel.OnClicked = ( (hyojiMoji) => { text.text = hyojiMoji.ToString(); });
+        textModel.OnValueChanged = ( (hyojiMoji) => { text.text = hyojiMoji.ToString(); });
     }
 }

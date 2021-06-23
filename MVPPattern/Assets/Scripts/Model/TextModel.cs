@@ -7,6 +7,8 @@ public class TextModel
 {
     public UnityAction<string> OnClicked;
 
+    public UnityAction<string> OnValueChanged;
+
     string text;
 
     public string Text
@@ -20,6 +22,11 @@ public class TextModel
                 if (OnClicked != null)
                 {
                     OnClicked.Invoke(text);
+                }
+
+                if (OnValueChanged != null)
+                {
+                    OnValueChanged.Invoke(text);
                 }
             }
         }
