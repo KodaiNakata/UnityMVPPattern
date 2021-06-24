@@ -58,9 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\View\TextView.cs" />
     <Compile Include="Assets\Scripts\Presenter\ButtonPresenter.cs" />
+    <Compile Include="Assets\Scripts\Presenter\SliderPresenter.cs" />
     <Compile Include="Assets\Scripts\Model\TextModel.cs" />
     <Compile Include="Assets\Scripts\Presenter\TextPresenter.cs" />
-    <Compile Include="Assets\Scripts\Presenter\SliderPresenter.cs" />
+    <Compile Include="Assets\Scripts\Presenter\TogglePresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
