@@ -62,8 +62,11 @@
     <Compile Include="Assets\Scripts\Presenter\SliderPresenter.cs" />
     <Compile Include="Assets\Scripts\Presenter\TogglePresenter.cs" />
     <Compile Include="Assets\Scripts\Model\TextModel.cs" />
-    <Compile Include="Assets\Scripts\Presenter\TextPresenter.cs" />
     <Compile Include="Assets\Scripts\Presenter\InputFieldPresenter.cs" />
+    <Compile Include="Assets\Scripts\Presenter\TextPresenter.cs" />
+    <Compile Include="Assets\Scripts\View\CircleView.cs" />
+    <Compile Include="Assets\Scripts\Presenter\CirclePresenter.cs" />
+    <Compile Include="Assets\Scripts\Model\CircleModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
