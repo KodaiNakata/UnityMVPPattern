@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CircleModel
 {
+    private const float MOVE_SPEED = 0.05f;
+
     public Vector2 position;
 
     public CircleModel()
@@ -15,7 +17,20 @@ public class CircleModel
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            position.x += 0.01f;
+            position.x += MOVE_SPEED;
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            position.x -= MOVE_SPEED;
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            position.y += MOVE_SPEED;
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            position.y -= MOVE_SPEED;
         }
     }
 }
