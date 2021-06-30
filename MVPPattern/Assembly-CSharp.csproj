@@ -56,17 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\View\CircleView.cs" />
     <Compile Include="Assets\Scripts\Presenter\DropdownPresenter.cs" />
     <Compile Include="Assets\Scripts\View\TextView.cs" />
     <Compile Include="Assets\Scripts\Presenter\ButtonPresenter.cs" />
     <Compile Include="Assets\Scripts\Presenter\SliderPresenter.cs" />
+    <Compile Include="Assets\Scripts\Model\CircleModel.cs" />
+    <Compile Include="Assets\Scripts\Presenter\CirclePresenter.cs" />
     <Compile Include="Assets\Scripts\Presenter\TogglePresenter.cs" />
     <Compile Include="Assets\Scripts\Model\TextModel.cs" />
     <Compile Include="Assets\Scripts\Presenter\InputFieldPresenter.cs" />
     <Compile Include="Assets\Scripts\Presenter\TextPresenter.cs" />
-    <Compile Include="Assets\Scripts\View\CircleView.cs" />
-    <Compile Include="Assets\Scripts\Presenter\CirclePresenter.cs" />
-    <Compile Include="Assets\Scripts\Model\CircleModel.cs" />
+    <Compile Include="Assets\Scripts\View\SceneView.cs" />
+    <Compile Include="Assets\Scripts\Presenter\ScenePresenter.cs" />
+    <Compile Include="Assets\Scripts\View\SceneButtonView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
