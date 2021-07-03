@@ -70,6 +70,9 @@
     <Compile Include="Assets\Scripts\View\SceneButtonView.cs" />
     <Compile Include="Assets\Scripts\Presenter\ScenePresenter.cs" />
     <Compile Include="Assets\Scripts\Presenter\TextPresenter.cs" />
+    <Compile Include="Assets\Scripts\View\DoctorView.cs" />
+    <Compile Include="Assets\Scripts\Presenter\DoctorPresenter.cs" />
+    <Compile Include="Assets\Scripts\Model\DoctorModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

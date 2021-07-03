@@ -2850,6 +2850,8 @@ GameObject:
   - component: {fileID: 2024010971}
   - component: {fileID: 2024010970}
   - component: {fileID: 2024010972}
+  - component: {fileID: 2024010974}
+  - component: {fileID: 2024010973}
   m_Layer: 0
   m_Name: Doctor_0
   m_TagString: Untagged
@@ -2941,6 +2943,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2024010973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024010969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3dd37c494db02c449f718091da047fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doctorView: {fileID: 2024010974}
+--- !u!114 &2024010974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024010969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf3b45519cfe364d969bd1ead4ca38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2096212283
 GameObject:
   m_ObjectHideFlags: 0
